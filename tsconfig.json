@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"target": "es5",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"paths": {
+			"openfl": ["./node_modules/openfl/lib/openfl"],
+			"openfl/*": ["./node_modules/openfl/lib/openfl/*"]
+		},
+		"sourceMap": true
+	}
+}
